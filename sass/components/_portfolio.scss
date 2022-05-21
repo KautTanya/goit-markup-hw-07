@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    &__item:not(:last-child){
-        margin-right: 8px;
-    }
+        &__item:not(:last-child){
+            margin-right: 8px;
+        }
 }
 
 .menu__btn{
@@ -23,12 +23,12 @@
                 box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
-    &:hover,
-    &:focus{
-        color: $next-color;
-        background-color: $accent-color;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    }
+        &:hover,
+        &:focus{
+            color: $next-color;
+            background-color: $accent-color;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        }
 
 }
 
@@ -83,7 +83,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.portfolio__link:hover .portfolio-overlay-text{
+.portfolio__link:hover .portfolio__text{
     transform: translateY(0);
 }
 
